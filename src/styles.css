@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#listItem {
+  border: solid 1px;
+  border-color: #4c1d95;
+  list-style-type: none;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  text-align: left;
+}
+body {
+  background-color: #ddd6fe;
+}
+h1 {
+  color: #4f46e5;
+}
+
+button {
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:focus {
+  background-color: #a78bfa;
+}
+ul {
+  width: 40%;
+  margin: auto;
+  padding: 1rem 1rem;
+}
+#name {
+  width: 80%;
+  font-weight: bold;
+}
+
+#container {
+  align-content: center;
+}
