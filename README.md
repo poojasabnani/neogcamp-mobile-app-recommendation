@@ -5,7 +5,7 @@
 Features:
 - Recommends Mobile apps based on different categories.
 
-View App: [Birthdate Prime Checker](https://lo2bu.csb.app/)
+View App: [Mobile App Recommendation](https://lo2bu.csb.app/)
 
 ## Technologies and Frameworks:
 - ReactJS
