@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-var mobileApps = {
+const mobileApps = {
   Educational: [
     { name: "Duolingo", rating: "4.8/5" },
     { name: "Babble", rating: "3.2/5" },
@@ -25,8 +25,8 @@ var mobileApps = {
 };
 
 export default function App() {
-  var [selectedCategoryItem, setCategoryItem] = useState("Educational");
-  var mobileAppArray = Object.keys(mobileApps);
+  const [selectedCategoryItem, setCategoryItem] = useState("Educational");
+  const mobileAppArray = Object.keys(mobileApps);
   function categoryClickHandler(mobileAppCategory) {
     setCategoryItem(mobileAppCategory);
   }
